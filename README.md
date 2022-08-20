@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# YIndex-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+YIndex React版，旨在开发一个可以复用的Web终端。  
+原项目地址：[YuIndex - 极客范儿的浏览器主页-by鱼皮](https://github.com/liyupi/yuindex)
 
-## Available Scripts
+## 技术栈
 
-In the project directory, you can run:
+### 前端
+
+- React
+- Ant Design 前端组件库
+- React-Router React路由
+- Mobx -状态管理
+- TypeScript 类型控制
+- Eslint 代码规范控制
+- Prettier 美化代码
+
+## 较原版项目的区别？
+1. 因为使用React作为开发框架，所以在开源库上的选择与原Vue项目不同，包括状态管理以及路由库等。
+2. 为了能进一步的拓展组件的复用性，新增了添加外部命令的方式（详见`pages/yuTerminal/index.tsx`文件）
+3. 超链接文本组件重构，使用React风格组件，实现上参考了Markdown语法（详见`components/SmartTextView/index.tsx`）
+
+## 本地开发调试
+本项目基于creat-react-app创建，如需改写Webpack配置，请参考`config-overrides.js`文件。
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+启动项目
 
 ### `npm run build`
+打包构建产物
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 致谢
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+感谢原作者[鱼皮](https://github.com/liyupi)的支持，感谢大佬的开源分享。

@@ -1,4 +1,3 @@
-import React from 'react';
 import { CommandType } from '@/base/interface';
 import { commandMap } from '@/core/command/commandRegister';
 import { ComponentOutputType } from '@/base/interface';
