@@ -1,0 +1,17 @@
+.yu-terminal {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  overflow: scroll;
+
+  &span {
+    font-size: 16px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &-wrapper {
+    background: black;
+  }
+}

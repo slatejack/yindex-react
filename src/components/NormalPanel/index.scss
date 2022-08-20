@@ -1,0 +1,12 @@
+.terminal {
+  &-row {
+    color: white;
+    font-size: 16px;
+    font-family: courier-new, courier, monospace;
+
+    &_span {
+      user-select: none;
+      margin-right: 10px
+    }
+  }
+}

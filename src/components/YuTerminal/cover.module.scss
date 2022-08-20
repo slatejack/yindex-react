@@ -1,0 +1,33 @@
+:global {
+  .ant-collapse-header {
+    color: white !important;
+    padding: 0 !important;
+  }
+
+  .ant-collapse {
+    background: none;
+  }
+
+  .ant-collapse-borderless>.ant-collapse-item {
+    border: none;
+  }
+
+  .ant-collapse-content>.ant-collapse-content-box {
+    padding: 0;
+  }
+
+  .ant-input-group-addon {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+  }
+
+
+  input {
+    background: none;
+    color: white !important;
+    font-size: 16px !important;
+    padding: 20 20px;
+  }
+}
